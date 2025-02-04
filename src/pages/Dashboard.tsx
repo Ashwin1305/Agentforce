@@ -19,23 +19,34 @@ const Agents = [
     id: '2',
     name: 'ValidateIQ',
     subject: 'Data Validation Agent',
-    description: 'This agent validates global standard and customer-specific X12 and EDIFACT files for any message types. It enables rules management, allowing users to manage any dataset in real time.',
+    description: 'This agent validates global standard and customer-specific X12 and EDIFACT files for any message types. Your trading partner testing is now simplified.',
     imageUrl: '/public/ValidateIQ.png',
     category: 'Validation',
     supportEmail: 'editeam@blueyonder.com',
-    publishedDate: '2025-02-05',
+    publishedDate: '2025-02-02',
     accessLevel: 'all'
   },
-    {
+  {
     id: '3',
+    name: 'ScriptCQ',
+    subject: 'SQL Conversion Agent',
+    description: 'This agent converts carrier questionnaire documents into ready to execute SQL statements. You can convert up to 50 CQ documents at once, simplifying the TP setup process.',
+    imageUrl: '/public/ScriptCQ.png',
+    category: 'Conversion',
+    supportEmail: 'editeam@blueyonder.com',
+    publishedDate: '2025-02-05',
+    accessLevel: 'team'
+  },
+    {
+    id: '4',
     name: 'FileEase (Coming Soon)',
-    subject: 'Data Retrieval Agent',
+    subject: 'File Retrieval Agent',
     description: 'This agent is capable of retrieving multiple files at once, effortlessly navigating and extracting data from various customer archives in a single operation.',
     imageUrl: '/public/FileEase.png',
     category: 'Retrieval',
     supportEmail: 'editeam@blueyonder.com',
-    publishedDate: '2025-04-05',
-    accessLevel: 'team'
+    publishedDate: '2025-03-01',
+    accessLevel: 'all'
   },
 ];
 
