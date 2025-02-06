@@ -1,4 +1,5 @@
 export type Agent = {
+  link: string;
   id: string;
   name: string;
   subject: string;

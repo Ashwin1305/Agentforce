@@ -12,7 +12,7 @@ export default function AgentGrid({ agents }: AgentGridProps) {
         <AgentCard
           key={agent.id}
           agent={agent}
-          onClick={() => {}}
+          onClick={() => {window.open(agent.link, "_blank");}}
         />
       ))}
     </div>

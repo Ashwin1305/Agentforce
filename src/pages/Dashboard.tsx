@@ -14,6 +14,7 @@ const Agents = [
     supportEmail: 'editeam@blueyonder.com',
     publishedDate: '2025-01-25',
     accessLevel: 'team',
+    link:'https://trackgs.vercel.app/login'
   },
   {
     id: '2',
@@ -24,7 +25,8 @@ const Agents = [
     category: 'Validation',
     supportEmail: 'editeam@blueyonder.com',
     publishedDate: '2025-02-02',
-    accessLevel: 'all'
+    accessLevel: 'all',
+    link:"https://validateiq.vercel.app/"
   },
   {
     id: '3',
@@ -35,7 +37,8 @@ const Agents = [
     category: 'Conversion',
     supportEmail: 'editeam@blueyonder.com',
     publishedDate: '2025-02-05',
-    accessLevel: 'team'
+    accessLevel: 'team',
+    link:"https://scriptcq.vercel.app/login"
   },
     {
     id: '4',
@@ -46,7 +49,8 @@ const Agents = [
     category: 'Retrieval',
     supportEmail: 'editeam@blueyonder.com',
     publishedDate: '2025-03-01',
-    accessLevel: 'all'
+    accessLevel: 'all',
+    link:"#"
   },
 ];
 
